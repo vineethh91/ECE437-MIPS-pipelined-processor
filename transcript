@@ -1,0 +1,172 @@
+# vsim -do {run 50ms; exit;} -c -wlf multAlgorithmSkel.asm.wlf work.tb_cpu 
+# //  ModelSim SE-64 10.1b Apr 26 2012 Linux 2.6.32-358.0.1.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_cpu(tb_arch)#1
+# Loading work.mycpu(arch_mycpu)#1
+# Loading work.twoinputadder(arch_twoinputadder)#1
+# Loading work.registerfile(regfile_arch)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.pipelineregister_ex_mem(arch_pipelineregister_ex_mem)#1
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+# run 50ms 
+# starting memory initialization
+# initialized memory
+# Cycle #32
+# Cycle #64
+# Cycle #96
+# Cycle #128
+# Cycle #160
+# Cycle #192
+# Cycle #224
+# Cycle #256
+# Cycle #288
+# Cycle #320
+# Cycle #352
+# Cycle #384
+# Cycle #416
+# Cycle #448
+# Cycle #480
+# Cycle #512
+# Cycle #544
+# Cycle #576
+# Cycle #608
+# Cycle #640
+# Cycle #672
+# Cycle #704
+# Cycle #736
+# Cycle #768
+# Cycle #800
+# Cycle #832
+# Cycle #864
+# Cycle #896
+# Cycle #928
+# Cycle #960
+# Cycle #992
+# Cycle #1024
+# Cycle #1056
+# Cycle #1088
+# Cycle #1120
+# Cycle #1152
+# Cycle #1184
+# Cycle #1216
+# Cycle #1248
+# Cycle #1280
+# Cycle #1312
+# Cycle #1344
+# Cycle #1376
+# Cycle #1408
+# Cycle #1440
+# Cycle #1472
+# Cycle #1504
+# Cycle #1536
+# Cycle #1568
+# Cycle #1600
+# Cycle #1632
+# Cycle #1664
+# Cycle #1696
+# Cycle #1728
+# Cycle #1760
+# Cycle #1792
+# Cycle #1824
+# Cycle #1856
+# Cycle #1888
+# Cycle #1920
+# Cycle #1952
+# Cycle #1984
+# Cycle #2016
+# Cycle #2048
+# Cycle #2080
+# Cycle #2112
+# Cycle #2144
+# Cycle #2176
+# Cycle #2208
+# Cycle #2240
+# Cycle #2272
+# Cycle #2304
+# Halted, cycles=2308
+# writing address 0
+# writing address 512
+# writing address 1024
+# writing address 1536
+# writing address 2048
+# writing address 2560
+# writing address 3072
+# writing address 3584
+# writing address 4096
+# writing address 4608
+# writing address 5120
+# writing address 5632
+# writing address 6144
+# writing address 6656
+# writing address 7168
+# writing address 7680
+# writing address 8192
+# writing address 8704
+# writing address 9216
+# writing address 9728
+# writing address 10240
+# writing address 10752
+# writing address 11264
+# writing address 11776
+# writing address 12288
+# writing address 12800
+# writing address 13312
+# writing address 13824
+# writing address 14336
+# writing address 14848
+# writing address 15360
+# writing address 15872
+# writing address 16384
+# writing address 16896
+# writing address 17408
+# writing address 17920
+# writing address 18432
+# writing address 18944
+# writing address 19456
+# writing address 19968
+# writing address 20480
+# writing address 20992
+# writing address 21504
+# writing address 22016
+# writing address 22528
+# writing address 23040
+# writing address 23552
+# writing address 24064
+# writing address 24576
+# writing address 25088
+# writing address 25600
+# writing address 26112
+# writing address 26624
+# writing address 27136
+# writing address 27648
+# writing address 28160
+# writing address 28672
+# writing address 29184
+# writing address 29696
+# writing address 30208
+# writing address 30720
+# writing address 31232
+# writing address 31744
+# writing address 32256
+# dumped memory
+# Break key hit 
+# Break in Process counter at ./source/VarLatRAM.vhd line 84
+# Stopped at ./source/VarLatRAM.vhd line 84 
+#  exit 
+# Break key hit 
